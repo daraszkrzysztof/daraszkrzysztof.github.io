@@ -9,6 +9,7 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
@@ -49,7 +50,7 @@
 Jestem tutaj aby pomóc Ci osiągnąć wymarzoną sylwetkę, zmienić Twoje nawyki żywieniowe na lepsze,
 poprawić Twoje wyniki zdrowotne oraz mądrze i świadomie wybierać to co trafia na Twoj talerz.
                         </p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                        <a class="btn btn-primary btn-xl" href="#about">Więcej</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +72,7 @@ i rozwijam w kierunku dietetyki klinicznej, dietoterapii. Bliskie jest mi podej�
 holistyczne gdyż nasz organizm to system połączonych naczyń wspólnie na siebie oddziaływujących.
 Dlatego też w swojej pracy zwracam uwagę na myśli, emocje i ciało.
                         </p>
-                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+                        <a class="btn btn-light btn-xl" href="#services">Dalej</a>
                     </div>
                 </div>
             </div>
@@ -84,14 +85,45 @@ Dlatego też w swojej pracy zwracam uwagę na myśli, emocje i ciało.
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-egg fs-1 text-primary"></i></div>
+                            <div class="mb-2"><i class="bi-egg fs-1 text-primary" ></i></div>
                             <h3 class="h4 mb-2">Pierwsza konsultacja dietetyczna czas trwania 60 minut</h3>
                             <p class="text-muted mb-0">
 To jest idealna opcja dla Ciebie jesli <b>nie potrzebujesz indywidualnego jadłospisu, natomiast chcesz
 omówić sposób Twojego odżywiania oraz stylu życia.</b>
                             </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#srv1detailsModal">Więcej</button>
                         </div>
                     </div>
+                    <!-- The Modal -->
+                    <div class="modal fade" id="srv1detailsModal">
+                        <div class="modal-dialog">
+                        <div class="modal-content bg-secondary">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title"><b>35 £ / 185 zł</b></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <section class="page-section bg-primary text-white" id="srv1details">
+                                    <div class="container px-4 px-lg-5">
+                                        <h2 class="mb-4 text-center">Pierwsza konsultacja dietetyczna czas trwania 60 minut</h2>
+                                        <ul>
+                                            <li>Omówienie i analiza aktualnego sposobu odżywiania</li>
+                                            <li>Zalecenia żywieniowe</li>
+                                            <li>Indywidualny plan suplementacji</li>
+                                            <li>Analiza wyników badań</li>
+                                            <li>Podsumowanie konsultacji w formie PDF</li>
+                                        </ul>
+                                        <p>Po konsultacji jest opcja wykupienia indywidualnego, stworzonego specjalnie dla Ciebie 7 dniowego
+                                            jadłospisu – 30 £</p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-droplet fs-1 text-primary"></i></div>
@@ -100,22 +132,116 @@ omówić sposób Twojego odżywiania oraz stylu życia.</b>
 To jest opcja doskonała dla kogoś komu zależy na indywidualnym planie oraz wsparciu w diecie podczas
 miesięcznej współpracy.
                             </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#srv2detailsModal">Więcej</button>
                         </div>
                     </div>
+                    <!-- The Modal -->
+                    <div class="modal fade" id="srv2detailsModal">
+                        <div class="modal-dialog">
+                        <div class="modal-content bg-secondary">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title"><b>65 £ / 350 zł</b></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <section class="page-section bg-primary text-white" id="srv2details">
+                                    <div class="container px-4 px-lg-5">
+                                        <h2 class="mb-4 text-center">Pakiet podstawowy</h2>
+                                        <ul>
+                                            <li>Konsultacja w formie online 60 minut</li>
+                                            <li>Analiza dotychczasowego sposobu odżywiania</li>
+                                            <li>Jeden 7-dniowy jadłospis z listą zakupów</li>
+                                            <li>Zalecenia żywieniowe w formie PDF</li>
+                                            <li>Omówienie wyników badań</li>
+                                            <li>Indywidualny plan suplementacji</li>
+                                            <li>Miesięczny kontakt emailowy ze mną, edukacja żywieniowa i śledzenie postępów</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-calendar-week fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Pakiet 2 miesiące współpracy</h3>
                             <p class="text-muted mb-0">Idealny pakiet na dłuższą współpracę, dla kogoś kto potrzebuje wsparcia.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#srv3detailsModal">Więcej</button>
                         </div>
                     </div>
+                    <!-- The Modal -->
+                    <div class="modal fade" id="srv3detailsModal">
+                        <div class="modal-dialog">
+                        <div class="modal-content bg-secondary">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title"><b>120 £/ 650 zł</b></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <section class="page-section bg-primary text-white" id="srv3details">
+                                    <div class="container px-4 px-lg-5">
+                                        <h2 class="mb-4 text-center">Pakiet 2 miesiące współpracy</h2>
+                                        <ul>
+                                            <li>Konsultacja w formie online 60 minut</li>
+                                            <li>Analiza dotychczasowego sposobu odżywiania</li>
+                                            <li>2 x7-dniowy jadłospis z listą zakupów (jeden jadłospis w każdym miesiącu)</li>
+                                            <li>Zalecenia żywieniowe w formie PDF</li>
+                                            <li>Omówienie wyników badań</li>
+                                            <li>Indywidualny plan suplementacji</li>
+                                            <li>Kontakt emailowy ze mną, edukacja żywieniowa i śledzenie postępów podczas trwania współpracy</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Pakiet 3 miesiące współpracy</h3>
                             <p class="text-muted mb-0">Idealny pakiet na dłuższą współpracę, podczas którego zapewniam Pełne moje wsparcie.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#srv4detailsModal">Więcej</button>
                         </div>
                     </div>
+                    <!-- The Modal -->
+                    <div class="modal fade" id="srv4detailsModal">
+                        <div class="modal-dialog">
+                        <div class="modal-content bg-secondary">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title"><b>175£ / 950 zł</b></h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <section class="page-section bg-primary text-white" id="srv2details">
+                                    <div class="container px-4 px-lg-5">
+                                        <h2 class="mb-4 text-center">Pakiet 3 miesiące współpracy</h2>
+                                        <ul>
+                                            <li>Konsultacja w formie online 60 minut</li>
+                                            <li>Analiza dotychczasowego sposobu odżywiania</li>
+                                            <li>3 x7-dniowy jadłospis z listą zakupów (jeden jadłospis w każdym miesiącu)</li>
+                                            <li>Zalecenia żywieniowe w formie PDF</li>
+                                            <li>Omówienie wyników badań</li>
+                                            <li>Indywidualny plan suplementacji</li>
+                                            <li>Kontakt emailowy ze mną, edukacja żywieniowa i śledzenie postępów podczas trwania współpracy</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -252,7 +378,7 @@ miesięcznej współpracy.
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Healthy Choice</div></div>
         </footer>
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
         <!-- Core theme JS-->
