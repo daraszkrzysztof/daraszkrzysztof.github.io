@@ -42,7 +42,8 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   /* --bs-primary-rgb: 244, 98, 58; */
-  --bs-primary-rgb: 170, 178, 97;
+  /* --bs-primary-rgb: 170, 178, 97; */
+  --bs-primary-rgb: 118, 130, 3;
   --bs-secondary-rgb: 238, 229, 177;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -11441,7 +11442,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(170, 178, 97, 0.9);
+  background: rgba(118, 130, 3, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
